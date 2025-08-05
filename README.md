@@ -25,9 +25,7 @@ Tech Stack
 - CSS3 (Flexbox & Media Queries)  
 - JavaScript  
 - Swiper.js (for sliders)  
-
-📸 Preview
-!Screenshot 
+ 
 <img width="777" height="635" alt="Screenshot 2025-08-05 211313" src="https://github.com/user-attachments/assets/999d6be5-03b1-430c-b25a-aeec2a343776" />
 <img width="764" height="543" alt="Screenshot 2025-08-05 211350" src="https://github.com/user-attachments/assets/ce04c51c-5a2f-4e6b-b761-4b28af242ee9" />
 <img width="723" height="536" alt="Screenshot 2025-08-05 211444" src="https://github.com/user-attachments/assets/4d7190c9-77f8-4e6e-bf80-bc89b20d0540" />
