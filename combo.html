@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Combos</title>
+  <link rel="stylesheet" href="styles.css" />
+    <!-- Remixicon -->
+  <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" 
+    integrity="sha512-XcIsjKMcuVe0Ucj/xgIXQnytNwBttJbNjltBV18IOnru2lDPe9KRRyvCXw6Y5H415vbBLRm8+q6fmLUU7DfO6Q==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" 
+  />
+</head>
+<body>
+
+  <header class="header" id="header">
+    <nav class="nav container" role="navigation" aria-label="Main Navigation">
+      <a href="index.html" class="nav__logo">
+        <img src="images2/coffee-cups-tea-svgrepo-com.svg" alt="Sip & Slice Logo" />
+        <span>Sip <br> & Slice</span>
+      </a>
+      <div class="nav__menu" id="nav__menu">
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link">Home</a></li>
+          <li><a href="about.html" class="nav__link">About</a></li>
+          <li><a href="orders.html" class="nav__link">Orders</a></li>
+          <li><a href="combo.html" class="nav__link active-link">Combo</a></li>
+          <li><a href="contact.html" class="nav__link">Contact</a></li>
+        </ul>
+        <button class="nav__close" id="nav__close" aria-label="Close menu">
+          <i class="ri-close-line"></i>
+        </button>
+      </div>
+      <button class="nav__toggle" id="nav__toggle" aria-label="Open menu">
+        <i class="ri-apps-fill"></i>
+      </button>
+    </nav>
+  </header>
+
+
+  <main class="main">
+    <section class="combo section" id="combo">
+      <h1 class="section__title"><span>Signature</span> <br> Combos</h1>
+      <div class="combo__container container grid">
+        <div class="combo__section">
+          <img src="images2/Latte.jpeg" alt="Combo" class="combo__img">
+          <div class="combo__numbers">
+            <div class="combo__numbers"><span>1</span><i class="ri-arrow-right-double-fill"></i></div>
+            <div class="combo__numbers"><span>2</span><i class="ri-arrow-right-double-fill"></i></div>
+            <div class="combo__numbers"><span>3</span><i class="ri-arrow-right-double-fill"></i></div>
+          </div>
+          <div class="combo__titles">
+            <h1 class="combo__title">COMBO</h1>
+            <h1 class="combo__title">COMBO</h1>
+            <h1 class="combo__title">COMBO</h1>
+            <h1 class="combo__title">COMBO</h1>
+          </div>
+          <div class="combo__data">
+            <div class="combo__info"><b>1 Large</b> <br> Coffee + Cake + Sandwhich</div>
+            <div class="combo__price">R185</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
