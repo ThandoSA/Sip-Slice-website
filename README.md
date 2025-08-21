@@ -43,4 +43,4 @@ If you have any suggestions, feature requests, or find a bug — feel free to op
 
 Connect With Me
 LinkedIn: Thandolenkosi Thando
-GitHub: @your-username
+GitHub: ThandoSA
